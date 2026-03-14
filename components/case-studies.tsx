@@ -11,7 +11,8 @@ const cases = [
     company: "NEORIS",
     tag: "B2B SaaS · 0→1",
     description:
-      "Building a B2B SaaS product from zero — defining the vision, aligning stakeholders, and shipping an MVP in a greenfield environment with no playbook and a hard deadline.",
+      "From hackathon winner to shipped product: building a people analytics platform from scratch inside a company that had never built one before.",
+    href: "/case-studies/wegrow",
   },
   {
     title: "Randstad Mobile App",
@@ -19,6 +20,7 @@ const cases = [
     tag: "Mobile · Global Scale",
     description:
       "Scaling a global workforce app across 13 markets — navigating localization, compliance, and cross-functional alignment at scale while keeping the product coherent.",
+    href: "#",
   },
   {
     title: "Client Portal",
@@ -26,6 +28,7 @@ const cases = [
     tag: "B2B Platform · 0→1",
     description:
       "Leading a B2B platform from zero — building the foundation for a self-service portal that connected clients with workforce solutions and reduced dependency on manual processes.",
+    href: "#",
   },
 ]
 
@@ -106,7 +109,7 @@ export function CaseStudies() {
 
                 <div className="mt-8">
                   <a
-                    href="#"
+                    href={cases[current].href}
                     className="inline-flex items-center gap-1.5 text-sm font-medium text-violet-400 hover:text-violet-300 transition-colors group"
                   >
                     Read more
