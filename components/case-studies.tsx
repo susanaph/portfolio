@@ -54,10 +54,10 @@ export function CaseStudies() {
     <section id="work" className="py-28 px-6 bg-zinc-950">
       <div className="mx-auto max-w-3xl">
         <FadeUp>
-          <p className="mb-3 text-base font-medium tracking-[0.25em] text-violet-400 uppercase">
+          <p className="mb-3 text-xs font-medium tracking-[0.25em] text-violet-400 uppercase">
             Case Studies
           </p>
-          <h2 className="mb-16 text-4xl md:text-5xl font-bold tracking-tight text-white">
+          <h2 className="mb-16 text-3xl md:text-4xl font-bold tracking-tight text-white">
             Selected work
           </h2>
         </FadeUp>
@@ -88,10 +88,10 @@ export function CaseStudies() {
               >
                 <div className="flex items-start justify-between gap-4 mb-6">
                   <div>
-                    <p className="text-base font-medium text-violet-400 mb-2 tracking-wide">
+                    <p className="text-xs font-medium text-violet-400 mb-2 tracking-wide">
                       {cases[current].company}
                     </p>
-                    <h3 className="text-4xl md:text-5xl font-bold text-white tracking-tight">
+                    <h3 className="text-lg font-bold text-white tracking-tight">
                       {cases[current].title}
                     </h3>
                   </div>
@@ -100,14 +100,14 @@ export function CaseStudies() {
                   </span>
                 </div>
 
-                <p className="text-zinc-400 text-xl leading-relaxed flex-1">
+                <p className="text-zinc-400 text-base leading-relaxed flex-1">
                   {cases[current].description}
                 </p>
 
                 <div className="mt-8">
                   <a
                     href="#"
-                    className="inline-flex items-center gap-1.5 text-lg font-medium text-violet-400 hover:text-violet-300 transition-colors group"
+                    className="inline-flex items-center gap-1.5 text-sm font-medium text-violet-400 hover:text-violet-300 transition-colors group"
                   >
                     Read more
                     <ChevronRight className="size-3.5 transition-transform duration-200 group-hover:translate-x-0.5" />

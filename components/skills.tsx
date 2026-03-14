@@ -50,8 +50,8 @@ function SkillCard({ title, description, delay }: { title: string; description: 
         whileHover={{ borderColor: "rgba(139,92,246,0.4)", y: -2 }}
         transition={{ duration: 0.18 }}
       >
-        <h3 className="text-2xl font-semibold text-white leading-snug">{title}</h3>
-        <p className="text-xl text-zinc-400 leading-relaxed">{description}</p>
+        <h3 className="text-lg font-semibold text-white leading-snug">{title}</h3>
+        <p className="text-base text-zinc-400 leading-relaxed">{description}</p>
       </motion.div>
     </FadeUp>
   )
@@ -62,10 +62,10 @@ export function Skills() {
     <section id="skills" className="py-28 px-6 bg-zinc-950">
       <div className="mx-auto max-w-5xl">
         <FadeUp>
-          <p className="mb-3 text-base font-medium tracking-[0.25em] text-violet-400 uppercase">
+          <p className="mb-3 text-xs font-medium tracking-[0.25em] text-violet-400 uppercase">
             Approach
           </p>
-          <h2 className="mb-16 text-4xl md:text-5xl font-bold tracking-tight text-white">
+          <h2 className="mb-16 text-3xl md:text-4xl font-bold tracking-tight text-white">
             Skills & approach
           </h2>
         </FadeUp>

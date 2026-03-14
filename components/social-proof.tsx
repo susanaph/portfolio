@@ -32,10 +32,10 @@ export function SocialProof() {
     <section className="py-28 px-6">
       <div className="mx-auto max-w-5xl">
         <FadeUp>
-          <p className="mb-3 text-base font-medium tracking-[0.25em] text-violet-400 uppercase">
+          <p className="mb-3 text-xs font-medium tracking-[0.25em] text-violet-400 uppercase">
             Testimonials
           </p>
-          <h2 className="mb-16 text-4xl md:text-5xl font-bold tracking-tight text-white">
+          <h2 className="mb-16 text-3xl md:text-4xl font-bold tracking-tight text-white">
             What people say
           </h2>
         </FadeUp>
@@ -48,11 +48,11 @@ export function SocialProof() {
                 whileHover={{ borderColor: "rgba(139,92,246,0.3)" }}
                 transition={{ duration: 0.18 }}
               >
-                <p className="flex-1 text-lg text-zinc-300 leading-relaxed">
+                <p className="flex-1 text-base text-zinc-300 leading-relaxed">
                   &ldquo;{t.quote}&rdquo;
                 </p>
                 <div className="mt-6 pt-5 border-t border-zinc-800">
-                  <p className="text-lg font-medium text-white">{t.name}</p>
+                  <p className="text-base font-medium text-white">{t.name}</p>
                   <p className="text-sm text-zinc-500 mt-0.5">
                     {t.title} · {t.company}
                   </p>

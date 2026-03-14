@@ -15,10 +15,10 @@ export function QuickFacts() {
     <section id="about" className="py-28 px-6">
       <div className="mx-auto max-w-3xl">
         <FadeUp>
-          <p className="mb-3 text-base font-medium tracking-[0.25em] text-violet-400 uppercase">
+          <p className="mb-3 text-xs font-medium tracking-[0.25em] text-violet-400 uppercase">
             About
           </p>
-          <h2 className="mb-16 text-4xl md:text-5xl font-bold tracking-tight text-white">
+          <h2 className="mb-16 text-3xl md:text-4xl font-bold tracking-tight text-white">
             Quick facts
           </h2>
         </FadeUp>
@@ -29,10 +29,10 @@ export function QuickFacts() {
               <div
                 className={`py-5 flex items-start gap-5 group${i > 0 ? " border-t border-zinc-800/60" : ""}`}
               >
-                <span className="shrink-0 font-mono text-base text-violet-400 mt-1 tabular-nums">
+                <span className="shrink-0 font-mono text-xs text-violet-400 mt-1 tabular-nums">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <p className="text-xl text-zinc-400 group-hover:text-zinc-200 transition-colors duration-200 leading-relaxed">
+                <p className="text-base text-zinc-400 group-hover:text-zinc-200 transition-colors duration-200 leading-relaxed">
                   {fact}
                 </p>
               </div>
