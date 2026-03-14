@@ -46,7 +46,7 @@ function SkillCard({ title, description, delay }: { title: string; description: 
   return (
     <FadeUp delay={delay}>
       <motion.div
-        className="flex min-h-[240px] flex-col gap-3 rounded-xl border border-zinc-800 bg-zinc-900/60 px-6 py-5"
+        className="flex min-h-[245px] flex-col gap-4 rounded-xl border border-zinc-800 bg-zinc-900/60 px-7 py-8"
         whileHover={{ borderColor: "rgba(139,92,246,0.4)", y: -2 }}
         transition={{ duration: 0.18 }}
       >
