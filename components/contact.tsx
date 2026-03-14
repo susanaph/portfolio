@@ -15,7 +15,7 @@ export function Contact() {
             Let&apos;s connect.
           </h2>
           <p className="mb-12 text-base text-zinc-500 leading-relaxed">
-            Open to new opportunities, conversations, and coffee chats.
+            Open to new opportunities, conversations, and chats over a cup of tea.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
