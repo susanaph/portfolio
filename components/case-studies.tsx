@@ -91,7 +91,7 @@ export function CaseStudies() {
                     <p className="text-xs font-medium text-violet-400 mb-2 tracking-wide">
                       {cases[current].company}
                     </p>
-                    <h3 className="text-lg font-bold text-white tracking-tight">
+                    <h3 className="text-3xl font-bold text-white tracking-tight">
                       {cases[current].title}
                     </h3>
                   </div>
