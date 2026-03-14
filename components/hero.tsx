@@ -8,7 +8,7 @@ const ease = [0.25, 0.4, 0.25, 1] as const
 
 export function Hero() {
   return (
-    <section id="hero" className="relative flex min-h-screen flex-col items-center justify-center px-6 overflow-hidden">
+    <section id="hero" className="relative flex min-h-screen flex-col items-center justify-center px-6 pt-20 md:pt-0 overflow-hidden">
       {/* Background glow */}
       <div className="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[60%] w-[800px] h-[600px] rounded-full bg-violet-700/10 blur-[120px]" />
 
