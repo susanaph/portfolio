@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { ArrowLeft } from "lucide-react"
 import { Nav } from "@/components/nav"
 import { FadeUp } from "@/components/fade-up"
@@ -68,28 +69,100 @@ export default function WeGrow() {
         <div className="mx-auto max-w-[720px] space-y-20">
 
           {/* The origin */}
-          <FadeUp>
-            <section>
+          <section className="space-y-8">
+            <FadeUp>
               <h2 className="text-xl font-bold text-white mb-6">The origin</h2>
-              <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
-                <p>
-                  It started with a hackathon. As a recruiting manager with no product background, I signed up to support an internal innovation initiative — mostly out of curiosity. What I discovered in those 24 hours surprised me: I had a lot to contribute. Not code, but clarity. What&apos;s the problem? Who are the users? What do they actually need? Our team won out of roughly 8–9 competing teams across a 150-person office.
-                </p>
-                <p>
-                  The win led directly to my appointment as Product Owner for WeGrow: a mobile app for employee feedback and recognition, powered by people analytics. The vision: help companies build cultures of continuous feedback through organizational network analysis. I had never held a product role in my life. I took every course I could find and got to work.
-                </p>
-              </div>
-            </section>
-          </FadeUp>
+              <p className="text-base text-zinc-400 leading-relaxed">
+                It started with a hackathon. As a recruiting manager with no product background, I signed up to support an internal innovation initiative — mostly out of curiosity. What I discovered in those 24 hours surprised me: I had a lot to contribute. Not code, but clarity. Our team won out of roughly 8–9 competing teams across a 150-person office.
+              </p>
+            </FadeUp>
+
+            <FadeUp delay={0.05}>
+              <figure className="mx-auto max-w-[600px]">
+                <div className="overflow-hidden rounded-xl border border-zinc-800">
+                  <Image
+                    src="/wegrow-sketch.png"
+                    alt="Product architecture sketch from the hackathon"
+                    width={600}
+                    height={450}
+                    className="w-full h-auto object-contain"
+                  />
+                </div>
+                <figcaption className="mt-2 text-xs text-zinc-600 leading-snug">
+                  Product architecture sketched on an iPad during the hackathon
+                </figcaption>
+              </figure>
+            </FadeUp>
+
+            <FadeUp delay={0.05}>
+              <p className="text-base text-zinc-400 leading-relaxed">
+                The win led directly to my appointment as Product Owner for WeGrow: a mobile app for employee feedback and recognition, powered by people analytics. The vision: help companies build cultures of continuous feedback through organizational network analysis. I had never held a product role in my life. I took every course I could find and got to work.
+              </p>
+            </FadeUp>
+
+            <FadeUp delay={0.05}>
+              <figure className="mx-auto max-w-[600px]">
+                <div className="flex items-center justify-center overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900" style={{ maxHeight: "500px" }}>
+                  <Image
+                    src="/wegrow-hack4.png"
+                    alt="The NEORIS hackathon, Oct 2019"
+                    width={600}
+                    height={450}
+                    className="w-full h-auto object-contain"
+                    style={{ maxHeight: "500px" }}
+                  />
+                </div>
+                <figcaption className="mt-2 text-xs text-zinc-600 leading-snug">
+                  The NEORIS hackathon, Oct 2019
+                </figcaption>
+              </figure>
+            </FadeUp>
+          </section>
 
           {/* What I built */}
-          <FadeUp>
-            <section>
+          <section className="space-y-8">
+            <FadeUp>
               <h2 className="text-xl font-bold text-white mb-6">What I built</h2>
+              <p className="text-base text-zinc-400 leading-relaxed">
+                WeGrow was four products in one: a native iOS and Android app for employees, a dashboarding web app for HR and people managers powered by organizational network analysis, a provisioning app for IT support, and a backend running on Neo4j and AWS. The team spanned Prague and Mexico. Small, scrappy, fully remote during COVID.
+              </p>
+            </FadeUp>
+
+            <FadeUp delay={0.05}>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <figure className="flex-1 min-w-0">
+                  <div className="flex items-center justify-center h-[280px] overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900">
+                    <Image
+                      src="/wegrow-mobileapp.png"
+                      alt="WeGrow mobile app"
+                      width={600}
+                      height={450}
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                  <figcaption className="mt-2 text-xs text-zinc-600 leading-snug">
+                    WeGrow mobile app
+                  </figcaption>
+                </figure>
+                <figure className="flex-1 min-w-0">
+                  <div className="flex items-center justify-center h-[280px] overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900">
+                    <Image
+                      src="/wegrow-web3.png"
+                      alt="WeGrow Analytics"
+                      width={600}
+                      height={450}
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                  <figcaption className="mt-2 text-xs text-zinc-600 leading-snug">
+                    WeGrow Analytics
+                  </figcaption>
+                </figure>
+              </div>
+            </FadeUp>
+
+            <FadeUp delay={0.05}>
               <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
-                <p>
-                  WeGrow was four products in one: a native iOS and Android app for employees, a dashboarding web app for HR and people managers powered by organizational network analysis, a provisioning app for IT support, and a backend running on Neo4j and AWS. The team spanned Prague and Mexico. Small, scrappy, fully remote during COVID.
-                </p>
                 <p>
                   I owned everything that wasn&apos;t code. Backlog, user stories, ceremonies, stakeholder alignment, legal, security, App Store approvals, push notification infrastructure decisions, GDPR compliance, marketing, the contract template, the terms of use. When the company&apos;s legal counsel told me this process was unusually fast, that most people who came to him couldn&apos;t explain what their product did or how it was built, I took it as a sign I was doing something right.
                 </p>
@@ -97,8 +170,8 @@ export default function WeGrow() {
                   I was also still a full-time global recruiting manager with direct reports across multiple countries while doing all of this.
                 </p>
               </div>
-            </section>
-          </FadeUp>
+            </FadeUp>
+          </section>
 
           {/* Shipping it */}
           <FadeUp>
@@ -112,12 +185,26 @@ export default function WeGrow() {
                   We launched on iOS and Android. We launched the dashboarding app. We deployed internally to 3,500 employees globally. The dev team told me I wrote the best user stories they&apos;d ever seen, which baffled me, because I assumed everyone did it this way.
                 </p>
                 <p>
-                  When I pitched to the C-suite, the former COO — a 20+ year company veteran who I wasn&apos;t sure liked me — sent me an audio note afterward. He said the leadership team had gone in with doubts about the company&apos;s technology partnerships and investments, including Neo4j, which sat outside their traditional Microsoft stack. After my presentation, they lit up. I had connected the product, the technology choices, the analytics, the competitive landscape, and the vision in a way that made it all click. He said I&apos;d knocked it out of the park, mentioned something about sparkles like Christmas lights, and called it the best pitch he&apos;d seen at the company.
+                  When I pitched to the C-suite, the former COO — a 20+ year company veteran who I wasn&apos;t sure liked me — sent me an audio note afterward. He said the leadership team had gone in with doubts about the company&apos;s technology partnerships and investments, including Neo4j, which sat outside their traditional Microsoft stack. After my presentation, they lit up. I had connected the product, the technology choices, the analytics, the competitive landscape, and the vision in a way that made it all click. He said I&apos;d knocked it out of the park, mentioned something about sparkles like Christmas lights, and called it the best pitch he&apos;d seen at the company. His exact words: &ldquo;Your presentation was the best. Impeccable. Te luciste.&rdquo;
                 </p>
                 <p>
                   I went on to pitch to 15–20 potential clients across the Czech Republic, Spain, Argentina, Mexico, and the United States.
                 </p>
               </div>
+              <figure className="mt-8 mx-auto max-w-[600px]">
+                <div className="overflow-hidden rounded-xl border border-zinc-800">
+                  <Image
+                    src="/wegrow-hero.png"
+                    alt="The WeGrow landing page"
+                    width={600}
+                    height={450}
+                    className="w-full h-auto object-contain"
+                  />
+                </div>
+                <figcaption className="mt-2 text-xs text-zinc-600 leading-snug">
+                  The WeGrow landing page, still live at epamneoris.com/wegrow
+                </figcaption>
+              </figure>
             </section>
           </FadeUp>
 
