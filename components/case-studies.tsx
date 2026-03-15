@@ -15,12 +15,12 @@ const cases = [
     href: "/case-studies/wegrow",
   },
   {
-    title: "Randstad Mobile App",
-    company: "Randstad",
-    tag: "Mobile · Global Scale",
+    title: "Global Mobile App",
+    company: "RANDSTAD",
+    tag: "B2C Mobile · Global Scale",
     description:
-      "Scaling a global workforce app across 13 markets — navigating localization, compliance, and cross-functional alignment at scale while keeping the product coherent.",
-    href: "#",
+      "From 10 to 26 countries, 10x MAU growth, and 4.6+ stars. How a single codebase powers Randstad's workforce app across 39 markets and 3 brands.",
+    href: "/case-studies/randstad-mobile",
   },
   {
     title: "Client Portal",

@@ -1,0 +1,209 @@
+"use client"
+
+import Link from "next/link"
+import Image from "next/image"
+import { ArrowLeft } from "lucide-react"
+import { Nav } from "@/components/nav"
+import { FadeUp } from "@/components/fade-up"
+
+export default function RandstadMobile() {
+  return (
+    <main className="bg-black text-white min-h-screen">
+      <Nav />
+
+      {/* Hero */}
+      <section className="pt-32 pb-16 px-6">
+        <div className="mx-auto max-w-[720px]">
+          <FadeUp>
+            <Link
+              href="/#work"
+              className="inline-flex items-center gap-2 text-sm text-zinc-600 hover:text-zinc-300 transition-colors mb-12"
+            >
+              <ArrowLeft className="size-3.5" />
+              Back
+            </Link>
+          </FadeUp>
+
+          <FadeUp delay={0.08}>
+            <p className="text-xs font-medium tracking-[0.25em] text-violet-400 uppercase mb-3">
+              RANDSTAD
+            </p>
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-white leading-tight mb-4">
+              Global Mobile App
+            </h1>
+            <p className="text-sm text-zinc-500 mb-6">
+              Product Owner · Jan 2022 – Dec 2023 · Prague
+            </p>
+            <span className="inline-block text-xs text-zinc-500 border border-zinc-800 rounded-full px-3 py-1">
+              B2C Mobile · Global Scale
+            </span>
+          </FadeUp>
+        </div>
+      </section>
+
+      <div className="mx-auto max-w-[720px] px-6">
+        <div className="border-t border-zinc-800" />
+      </div>
+
+      {/* Hero image */}
+      <div className="py-12 px-6">
+        <FadeUp>
+          <div className="mx-auto max-w-[900px] overflow-hidden rounded-xl border border-zinc-800">
+            <Image
+              src="/randstad-appstore.png"
+              alt="Randstad Global Mobile App"
+              width={1800}
+              height={1200}
+              className="w-full h-auto object-contain"
+              priority
+            />
+          </div>
+        </FadeUp>
+      </div>
+
+      {/* Content */}
+      <article className="py-16 px-6 pb-32">
+        <div className="mx-auto max-w-[720px] space-y-20">
+
+          {/* The opportunity */}
+          <FadeUp>
+            <section>
+              <h2 className="text-xl font-bold text-white mb-6">The opportunity</h2>
+              <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
+                <p>
+                  When Randstad reached out about the Global Mobile App Product Owner role, I didn&apos;t hesitate. Two days after the final round, I had an offer. I signed. For the first time in my career, I&apos;d be hired to do product full time.
+                </p>
+                <p>
+                  I immediately enrolled in courses on UX design, agile methodologies, and design thinking. I wanted to do this properly. By the end of my tenure, I had completed 27 courses in UX, SQL, Python, data analysis, statistics, calculus, product strategy and innovation. All while working full time. Learning for me was part of the job.
+                </p>
+                <p>
+                  During this time, I also completed my Master&apos;s degree in Business and Change Management, something I had originally moved to Europe for but had to pause due to workload. For my thesis, I developed the product vision and strategy for a mentoring platform. Using design thinking frameworks and user research techniques, I prepared a value proposition canvas, business model canvas, and an investment plan for an MVP. Essentially a full product case study as an academic exercise.
+                </p>
+              </div>
+            </section>
+          </FadeUp>
+
+          {/* The product and what I built */}
+          <FadeUp>
+            <section>
+              <h2 className="text-xl font-bold text-white mb-6">The product and what I built</h2>
+              <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
+                <p>
+                  The Global Mobile App is Randstad&apos;s app for workers. People on temporary contracts submitting timesheets, tracking shifts, managing expenses. Built to serve 39 markets from a single codebase, the challenge was making scale and simplicity coexist: one app, one codebase, 3 brands, countless local variations in regulation, language, and workflow.
+                </p>
+                <p>
+                  When I joined, the app was live in 10 countries with basic functionality and ratings sitting around 2.5 stars. The roadmap was ambitious: expand country coverage, replace legacy products, and build features that workers actually needed. Over two years we shipped shift management, notifications, absence and availability management, accessibility improvements, timesheets, expenses, e-signing, and a full rebrand and white-label spin-off for Tempo-Team and YouPlan.
+                </p>
+                <p>
+                  Shortly after joining, my scope expanded to include product ownership for the integrations and middleware team. I welcomed it. APIs, system dependencies, cloud infrastructure. I learned fast, asked a lot of questions, and made sure I never had to ask the same one twice. The tech lead told me that was rare. It&apos;s my advice for anyone new to a team: ask and take notes. Study your notes. And thanks for the compliment.
+                </p>
+              </div>
+            </section>
+          </FadeUp>
+
+          {/* App image */}
+          <FadeUp>
+            <figure>
+              <div className="overflow-hidden rounded-xl border border-zinc-800">
+                <Image
+                  src="/randstad-app.png"
+                  alt="The Global Mobile App"
+                  width={1200}
+                  height={800}
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <figcaption className="mt-2 text-xs text-zinc-600 leading-snug">
+                The Global Mobile App — multiple brands, markets, and features from a single codebase
+              </figcaption>
+            </figure>
+          </FadeUp>
+
+          {/* Stakeholder management at scale */}
+          <FadeUp>
+            <section>
+              <h2 className="text-xl font-bold text-white mb-6">Stakeholder management at scale</h2>
+              <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
+                <p>
+                  This was a vast IT and product organization with a lot of moving parts. My job wasn&apos;t just to manage the backlog. It was to cut through the jungle and make a path for the team. I got deeply involved in ceremonies, protected the team&apos;s productive time, and kept the environment focused without losing momentum.
+                </p>
+                <p>
+                  My manager&apos;s direction when I joined was simple: own the product. Be the expert. Be involved. I took that seriously, and was recognized for it.
+                </p>
+              </div>
+            </section>
+          </FadeUp>
+
+          {/* The detective work */}
+          <FadeUp>
+            <section>
+              <h2 className="text-xl font-bold text-white mb-6">The detective work</h2>
+              <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
+                <p>
+                  The ratings issue wasn&apos;t obvious. Users were leaving poor reviews but the signals weren&apos;t surfacing through normal channels. I combined app store feedback with our product analytics setup, taught myself enough SQL to query user events in BigQuery, and started looking for patterns.
+                </p>
+                <p>
+                  What I found were major bugs causing chronic user dissatisfaction. After releasing a new app version with the fixes, the response from my Italian colleague was: &ldquo;Finally we fix that.&rdquo; He went on to share that consultants in Italy had been fielding reports for years without knowing how to respond. The calls kept coming until we shipped the fix. Reducing operating expenses this way is how the product proves ROI.
+                </p>
+                <p>
+                  I replied to reviews personally, thanking users for their feedback and letting them know we were investigating. In a couple of cases, after notifying them that the fix was live, they updated their rating to 5 stars and left a comment thanking us for following through.
+                </p>
+                <p>
+                  I also picked up enough AWS to start using CloudWatch to diagnose system communication issues. Not out of ambition to exceed my scope, but out of practicality. I needed answers, I didn&apos;t want to wait for someone else&apos;s availability, and I wasn&apos;t even sure the right logs existed or where to find them. Learning the tools myself was the fastest path to the truth.
+                </p>
+                <p>
+                  Through my learning, I understood that the PO should care deeply about every aspect of the development process: QA, production setup, system health. You own it.
+                </p>
+                <p>
+                  I visited the team in Poland a couple of times. Good work and good energy are not mutually exclusive — this team proved it.
+                </p>
+              </div>
+              <figure className="mt-8">
+                <div className="overflow-hidden rounded-xl border border-zinc-800">
+                  <Image
+                    src="/randstad-team.jpg"
+                    alt="The development team in Poland"
+                    width={1200}
+                    height={800}
+                    className="w-full h-auto object-contain"
+                  />
+                </div>
+                <figcaption className="mt-2 text-xs text-zinc-600 leading-snug">
+                  The development team in Poland
+                </figcaption>
+              </figure>
+            </section>
+          </FadeUp>
+
+          {/* The outcome that mattered most */}
+          <FadeUp>
+            <section>
+              <h2 className="text-xl font-bold text-white mb-6">The outcome that mattered most</h2>
+              <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
+                <p>
+                  By the time I left, the app was live in 26 countries, MAU had grown 10x, and ratings had climbed to 4.6+ on both the App Store and Google Play. Powering 3 different brands from the same codebase.
+                </p>
+                <p>
+                  Toward the end of my time in this role, I contributed to the business case that secured funding for the next phase of the app. A multi-year investment in an internal landscape where the question was genuinely &ldquo;buy, build, or acquire.&rdquo; The global mobile app had proven its case: reach, adoption, ratings. It won.
+                </p>
+                <p>
+                  I helped define what came next through a competitive analysis of comparable apps and consumer UX patterns to shape the candidate journey, designed to integrate seamlessly with the worker experience already built.
+                </p>
+                <p>
+                  Building something that earns its own future is a good feeling.
+                </p>
+              </div>
+            </section>
+          </FadeUp>
+
+        </div>
+      </article>
+
+      <footer className="border-t border-zinc-800/60 py-8 px-6 text-center">
+        <p className="text-xs text-zinc-700">
+          © {new Date().getFullYear()} Susana Perez · Built with Next.js &amp; Claude Code
+        </p>
+      </footer>
+    </main>
+  )
+}
