@@ -9,11 +9,11 @@ import { FadeUp } from "@/components/fade-up"
 const learnedPoints = [
   {
     lead: "Validate the market before building.",
-    body: 'I approached competitive analysis from the wrong angle — "they do this poorly, we do it better, people will love us." I never seriously questioned whether companies actually wanted to invest in feedback culture. They didn\'t, or at least not at the price point we needed.',
+    body: 'I approached competitive analysis from the wrong angle: "they do this poorly, we do it better, people will love us." I never seriously questioned whether companies actually wanted to invest in feedback culture. They didn\'t, or at least not at the price point we needed.',
   },
   {
     lead: "Talk to customers earlier, even without a product.",
-    body: "I resisted early customer conversations because I didn't want to overpromise. In retrospect, those conversations would have surfaced the real objections: procurement complexity, cultural resistance to downloading work apps on personal phones, the difficulty of proving ROI — long before we'd spent two years building.",
+    body: "I resisted early customer conversations because I didn't want to overpromise. In retrospect, those conversations would have surfaced the real objections: procurement complexity, cultural resistance to downloading work apps on personal phones, the difficulty of proving ROI, etc. long before we'd spent two years building.",
   },
   {
     lead: "B2B sales is a multi-stakeholder problem.",
@@ -73,7 +73,7 @@ export default function WeGrow() {
             <FadeUp>
               <h2 className="text-xl font-bold text-white mb-6">The origin</h2>
               <p className="text-base text-zinc-400 leading-relaxed">
-                It started with a hackathon. As a recruiting manager with no product background, I signed up to support an internal innovation initiative — mostly out of curiosity. What I discovered in those 24 hours surprised me: I had a lot to contribute. Not code, but clarity. Our team won out of roughly 8–9 competing teams across a 150-person office.
+                It started with a hackathon. As a recruiting manager with no product background, I signed up to support an internal innovation initiative. Mostly out of curiosity. What I discovered in those 24 hours surprised me: I had a lot to contribute. Not code, but clarity. Our team won out of roughly 8–9 competing teams across a 150-person office.
               </p>
             </FadeUp>
 
@@ -185,7 +185,7 @@ export default function WeGrow() {
                   We launched on iOS and Android. We launched the dashboarding app. We deployed internally to 3,500 employees globally. The dev team told me I wrote the best user stories they&apos;d ever seen, which baffled me, because I assumed everyone did it this way.
                 </p>
                 <p>
-                  When I pitched to the C-suite, the former COO — a 20+ year company veteran who I wasn&apos;t sure liked me — sent me an audio note afterward. He said the leadership team had gone in with doubts about the company&apos;s technology partnerships and investments, including Neo4j, which sat outside their traditional Microsoft stack. After my presentation, they lit up. I had connected the product, the technology choices, the analytics, the competitive landscape, and the vision in a way that made it all click. He said I&apos;d knocked it out of the park, mentioned something about sparkles like Christmas lights, and called it the best pitch he&apos;d seen at the company. His exact words: &ldquo;Your presentation was the best. Impeccable. Te luciste.&rdquo;
+                  When I pitched to the C-suite, the former COO, a 20+ year company veteran who I wasn&apos;t sure liked me, sent me an audio note afterward. He said the leadership team had gone in with doubts about the company&apos;s technology partnerships and investments, including Neo4j, which sat outside their traditional Microsoft stack. After my presentation, they lit up. I had connected the product, the technology choices, the analytics, the competitive landscape, and the vision in a way that made it all click. He said I&apos;d knocked it out of the park, mentioned something about sparkles like Christmas lights, and called it the best pitch he&apos;d seen at the company. His exact words: &ldquo;Your presentation was the best. Impeccable. Te luciste.&rdquo;
                 </p>
                 <p>
                   I went on to pitch to 15–20 potential clients across the Czech Republic, Spain, Argentina, Mexico, and the United States.
@@ -202,7 +202,15 @@ export default function WeGrow() {
                   />
                 </div>
                 <figcaption className="mt-2 text-xs text-zinc-600 leading-snug">
-                  The WeGrow landing page, still live at epamneoris.com/wegrow
+                  The WeGrow landing page, still live at{" "}
+                  <a
+                    href="https://epamneoris.com/wegrow"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline hover:text-zinc-400 transition-colors"
+                  >
+                    epamneoris.com/wegrow
+                  </a>
                 </figcaption>
               </figure>
             </section>
@@ -211,7 +219,7 @@ export default function WeGrow() {
           {/* What didn't work */}
           <FadeUp>
             <section>
-              <h2 className="text-xl font-bold text-white mb-2">What didn&apos;t work — and what I learned</h2>
+              <h2 className="text-xl font-bold text-white mb-2">What didn&apos;t work and what I learned</h2>
               <p className="text-base text-zinc-400 leading-relaxed mb-10">
                 The product didn&apos;t find commercial success. Adoption internally was minimal, client conversions were zero, and when the executive sponsor left the company, the initiative lost its champion. Here&apos;s what I&apos;d do differently:
               </p>
@@ -226,7 +234,7 @@ export default function WeGrow() {
                 ))}
               </div>
               <p className="text-base text-zinc-400 leading-relaxed mt-10">
-                WeGrow probably shouldn&apos;t have been built — not by this company, not at this time. But I&apos;m glad it was, because it&apos;s where I found my calling and reoriented my career.
+                WeGrow probably shouldn&apos;t have been built. Not by this company, not at this time. But I&apos;m glad it was, because it&apos;s where I found my calling and reoriented my career.
               </p>
             </section>
           </FadeUp>

@@ -82,12 +82,12 @@ export function Hero() {
             <div className="absolute inset-0 rounded-full bg-violet-600/25 blur-[40px] scale-110 pointer-events-none" />
             {/* Purple gradient ring */}
             <div className="relative rounded-full p-[3px] bg-gradient-to-br from-violet-500 via-violet-700 to-transparent">
-              <div className="rounded-full overflow-hidden w-[280px] h-[280px] md:w-[340px] md:h-[340px]">
+              <div className="rounded-full overflow-hidden w-[252px] h-[252px] md:w-[306px] md:h-[306px]">
                 <Image
                   src="/profile.jpeg"
                   alt="Susana Perez"
-                  width={340}
-                  height={340}
+                  width={306}
+                  height={306}
                   className="w-full h-full object-cover"
                   priority
                 />
