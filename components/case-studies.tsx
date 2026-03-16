@@ -102,7 +102,7 @@ export function CaseStudies() {
                     <h3 className="text-3xl font-bold text-white tracking-tight mb-2">
                       {cases[current].title}
                     </h3>
-                    <span className="text-sm text-zinc-500">
+                    <span className="inline-block text-xs text-zinc-500 border border-zinc-800 rounded-full px-3 py-1">
                       {cases[current].tag}
                     </span>
                   </div>
