@@ -91,7 +91,14 @@ export function CaseStudies() {
                 animate="center"
                 exit="exit"
                 transition={{ duration: 0.32, ease }}
-                className="border border-zinc-800 bg-zinc-900 rounded-2xl px-10 md:px-12 py-10 md:py-10 flex flex-col md:flex-row md:items-stretch gap-6 md:gap-12 md:h-[420px]"
+                drag="x"
+                dragConstraints={{ left: 0, right: 0 }}
+                dragElastic={0.1}
+                onDragEnd={(_, info) => {
+                  if (info.offset.x < -50) next()
+                  else if (info.offset.x > 50) prev()
+                }}
+                className="border border-zinc-800 bg-zinc-900 rounded-2xl px-10 md:px-12 py-10 md:py-10 flex flex-col md:flex-row md:items-stretch gap-6 md:gap-12 md:h-[420px] cursor-grab active:cursor-grabbing"
               >
                 {/* Text column */}
                 <div className="flex flex-col flex-1 md:pr-8">
