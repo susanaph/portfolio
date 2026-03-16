@@ -45,7 +45,7 @@ export default function RandstadMobile() {
               RANDSTAD
             </p>
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-white leading-tight mb-4">
-              Global Mobile App
+              Talent App
             </h1>
             <p className="text-sm text-zinc-500 mb-6">
               Product Owner · Jan 2022 – Dec 2023 · Prague
@@ -87,7 +87,7 @@ export default function RandstadMobile() {
               <h2 className="text-xl font-bold text-white mb-6">The opportunity</h2>
               <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
                 <p>
-                  When Randstad reached out about the Global Mobile App Product Owner role, I didn&apos;t hesitate. Two days after the final round, I had an offer. I signed. For the first time in my career, I&apos;d be hired to do product full time.
+                  When Randstad reached out about the Global Mobile App Product Owner role, I didn&apos;t hesitate. The myRandstad app key to Randstad&apos;s staffing operations by facilitating tens of thousands of talents manage their admin during their assignments. Two days after the final round, I had an offer. I signed. For the first time in my career, I&apos;d be hired to do product full time.
                 </p>
                 <p>
                   I immediately enrolled in courses on UX design, agile methodologies, and design thinking. I wanted to do this properly. By the end of my tenure, I had completed 27 courses in UX, SQL, Python, data analysis, statistics, calculus, product strategy and innovation. All while working full time. Learning for me was part of the job.
