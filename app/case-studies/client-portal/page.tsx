@@ -3,6 +3,7 @@ import Link from "next/link"
 import { ArrowLeft, ChevronLeft } from "lucide-react"
 import { Nav } from "@/components/nav"
 import { FadeUp } from "@/components/fade-up"
+import { Contact } from "@/components/contact"
 
 export const metadata: Metadata = {
   title: "Client Portal Case Study — Susana Perez",
@@ -193,7 +194,7 @@ export default function ClientPortal() {
       </article>
 
       {/* Case study navigation */}
-      <nav className="mx-auto max-w-[720px] px-6 pt-8 pb-32 flex justify-start">
+      <nav className="mx-auto max-w-[720px] px-6 pt-8 pb-8 flex justify-start">
         <Link href="/case-studies/randstad-mobile" className="group text-left">
           <p className="text-xs text-zinc-500 mb-1">Previous</p>
           <p className="text-sm font-medium text-zinc-300 group-hover:text-white transition-colors inline-flex items-center gap-1">
@@ -201,6 +202,8 @@ export default function ClientPortal() {
           </p>
         </Link>
       </nav>
+
+      <Contact compact subtext="Open to discuss how you can scale your organization while boosting team morale." />
 
       <footer className="border-t border-zinc-800/60 py-8 px-6 text-center">
         <p className="text-xs text-zinc-700">

@@ -3,19 +3,16 @@
 import { FadeUp } from "@/components/fade-up"
 import { Linkedin, Calendar } from "lucide-react"
 
-export function Contact() {
+export function Contact({ compact = false, subtext }: { compact?: boolean; subtext?: string }) {
   return (
-    <section id="contact" className="py-16 md:py-28 px-6 bg-zinc-950">
+    <section id="contact" className={compact ? "py-16 px-6" : "py-16 md:py-28 px-6 bg-zinc-950"}>
       <div className="mx-auto max-w-3xl text-center">
         <FadeUp>
-          <p className="mb-4 text-xs font-medium tracking-[0.25em] text-violet-400 uppercase">
-            Contact
-          </p>
-          <h2 className="mb-4 text-3xl md:text-4xl font-bold tracking-tight text-white">
-            Let&apos;s connect.
+          <h2 className={`mb-4 font-bold tracking-tight text-white ${compact ? "text-2xl" : "text-3xl md:text-4xl"}`}>
+            Want to connect?
           </h2>
-          <p className="mb-12 text-base text-zinc-500 leading-relaxed">
-            Open to new opportunities, conversations, and chats over a cup of tea.
+          <p className="mb-10 text-base text-zinc-500 leading-relaxed">
+            {subtext ?? "Open to new opportunities, conversations, and chats over a cup of tea."}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center">

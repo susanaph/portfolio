@@ -20,6 +20,7 @@ import Image from "next/image"
 import { ArrowLeft, ChevronLeft, ChevronRight } from "lucide-react"
 import { Nav } from "@/components/nav"
 import { FadeUp } from "@/components/fade-up"
+import { Contact } from "@/components/contact"
 
 export default function RandstadMobile() {
   return (
@@ -235,7 +236,7 @@ export default function RandstadMobile() {
       </article>
 
       {/* Case study navigation */}
-      <nav className="mx-auto max-w-[720px] px-6 pt-8 pb-32 flex justify-between">
+      <nav className="mx-auto max-w-[720px] px-6 pt-8 pb-8 flex justify-between">
         <Link href="/case-studies/wegrow" className="group text-left">
           <p className="text-xs text-zinc-500 mb-1">Previous</p>
           <p className="text-sm font-medium text-zinc-300 group-hover:text-white transition-colors inline-flex items-center gap-1">
@@ -249,6 +250,8 @@ export default function RandstadMobile() {
           </p>
         </Link>
       </nav>
+
+      <Contact compact subtext="Open to help you plan how to upskill your product team with proven paths and methods." />
 
       <footer className="border-t border-zinc-800/60 py-8 px-6 text-center">
         <p className="text-xs text-zinc-700">

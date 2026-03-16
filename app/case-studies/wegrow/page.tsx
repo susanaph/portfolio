@@ -20,6 +20,7 @@ import Image from "next/image"
 import { ArrowLeft, ChevronRight } from "lucide-react"
 import { Nav } from "@/components/nav"
 import { FadeUp } from "@/components/fade-up"
+import { Contact } from "@/components/contact"
 
 const learnedPoints = [
   {
@@ -256,7 +257,7 @@ export default function WeGrow() {
       </article>
 
       {/* Case study navigation */}
-      <nav className="mx-auto max-w-[720px] px-6 pt-8 pb-32 flex justify-end">
+      <nav className="mx-auto max-w-[720px] px-6 pt-8 pb-8 flex justify-end">
         <Link href="/case-studies/randstad-mobile" className="group text-right">
           <p className="text-xs text-zinc-500 mb-1">Next</p>
           <p className="text-sm font-medium text-violet-400 group-hover:text-violet-300 transition-colors inline-flex items-center gap-1">
@@ -264,6 +265,8 @@ export default function WeGrow() {
           </p>
         </Link>
       </nav>
+
+      <Contact compact subtext="Open to discuss how to spot the warning signs that your investment may be at risk." />
 
       <footer className="border-t border-zinc-800/60 py-8 px-6 text-center">
         <p className="text-xs text-zinc-700">

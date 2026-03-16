@@ -67,28 +67,12 @@ export function Nav() {
       </a>
 
       {toc ? (
-        <>
-          {/* Desktop: Portfolio link + section TOC */}
-          <div className="hidden md:flex items-center gap-5">
-            <a href="/#work" className={linkClass}>
-              ← Portfolio
-            </a>
-            <span className="text-zinc-800">|</span>
-            {toc.sections.map((s) => (
-              <a key={s.href} href={s.href} className={linkClass}>
-                {s.label}
-              </a>
-            ))}
-          </div>
-
-          {/* Mobile: Portfolio link + title */}
-          <div className="flex md:hidden items-center gap-4">
-            <a href="/#work" className={linkClass}>
-              ← Portfolio
-            </a>
-            <span className="text-sm text-zinc-600">{toc.title}</span>
-          </div>
-        </>
+        <div className="flex items-center gap-4">
+          <a href="/#work" className={linkClass}>
+            ← Portfolio
+          </a>
+          <span className="text-sm text-zinc-600">{toc.title}</span>
+        </div>
       ) : (
         <div className="flex items-center gap-6">
           {homeLinks.map((link) => (
