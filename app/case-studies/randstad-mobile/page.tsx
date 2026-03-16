@@ -82,7 +82,7 @@ export default function RandstadMobile() {
 
           {/* The opportunity */}
           <FadeUp>
-            <section>
+            <section id="opportunity">
               <h2 className="text-xl font-bold text-white mb-6">The opportunity</h2>
               <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
                 <p>
@@ -100,7 +100,7 @@ export default function RandstadMobile() {
 
           {/* The product and what I built */}
           <FadeUp>
-            <section>
+            <section id="the-product">
               <h2 className="text-xl font-bold text-white mb-6">The product and what I built</h2>
               <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
                 <p>
@@ -132,7 +132,7 @@ export default function RandstadMobile() {
 
           {/* The detective work */}
           <FadeUp>
-            <section>
+            <section id="detective-work">
               <h2 className="text-xl font-bold text-white mb-6">The detective work</h2>
               <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
                 <p>
@@ -156,7 +156,7 @@ export default function RandstadMobile() {
 
           {/* Stakeholder management at scale */}
           <FadeUp>
-            <section>
+            <section id="stakeholder-management">
               <h2 className="text-xl font-bold text-white mb-6">Stakeholder management at scale</h2>
               <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
                 <p>
@@ -188,7 +188,7 @@ export default function RandstadMobile() {
 
           {/* The outcome */}
           <FadeUp>
-            <section>
+            <section id="outcome">
               <h2 className="text-xl font-bold text-white mb-6">The outcome</h2>
               <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
                 <p>

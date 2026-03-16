@@ -64,7 +64,7 @@ export default function ClientPortal() {
 
           {/* How it started */}
           <FadeUp>
-            <section>
+            <section id="how-it-started">
               <h2 className="text-xl font-bold text-white mb-6">How it started</h2>
               <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
                 <p>
@@ -79,7 +79,7 @@ export default function ClientPortal() {
 
           {/* The problem worth solving */}
           <FadeUp>
-            <section>
+            <section id="the-problem">
               <h2 className="text-xl font-bold text-white mb-6">The problem worth solving</h2>
               <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
                 <p>
@@ -97,7 +97,7 @@ export default function ClientPortal() {
 
           {/* Building from zero */}
           <FadeUp>
-            <section>
+            <section id="building-from-zero">
               <h2 className="text-xl font-bold text-white mb-6">Building from zero</h2>
               <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
                 <p>
@@ -118,7 +118,7 @@ export default function ClientPortal() {
 
           {/* Navigating the hard parts */}
           <FadeUp>
-            <section>
+            <section id="navigating-hard-parts">
               <h2 className="text-xl font-bold text-white mb-6">Navigating the hard parts</h2>
               <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
                 <p>
@@ -136,7 +136,7 @@ export default function ClientPortal() {
 
           {/* Where we are now */}
           <FadeUp>
-            <section>
+            <section id="where-we-are-now">
               <h2 className="text-xl font-bold text-white mb-6">Where we are now</h2>
               <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
                 <p>

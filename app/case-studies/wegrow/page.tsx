@@ -84,7 +84,7 @@ export default function WeGrow() {
         <div className="mx-auto max-w-[720px] space-y-20">
 
           {/* The origin */}
-          <section className="space-y-8">
+          <section id="origin" className="space-y-8">
             <FadeUp>
               <h2 className="text-xl font-bold text-white mb-6">The origin</h2>
               <p className="text-base text-zinc-400 leading-relaxed">
@@ -135,7 +135,7 @@ export default function WeGrow() {
           </section>
 
           {/* What I built */}
-          <section className="space-y-8">
+          <section id="what-i-built" className="space-y-8">
             <FadeUp>
               <h2 className="text-xl font-bold text-white mb-6">What I built</h2>
               <p className="text-base text-zinc-400 leading-relaxed">
@@ -174,7 +174,7 @@ export default function WeGrow() {
 
           {/* Shipping it */}
           <FadeUp>
-            <section>
+            <section id="shipping-it">
               <h2 className="text-xl font-bold text-white mb-6">Shipping it</h2>
               <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
                 <p>
@@ -217,7 +217,7 @@ export default function WeGrow() {
 
           {/* What didn't work */}
           <FadeUp>
-            <section>
+            <section id="what-didnt-work">
               <h2 className="text-xl font-bold text-white mb-2">What didn&apos;t work and what I learned</h2>
               <p className="text-base text-zinc-400 leading-relaxed mb-10">
                 The product didn&apos;t find commercial success. Adoption internally was minimal, client conversions were zero, and when the executive sponsor left the company, the initiative lost its champion. Here&apos;s what I&apos;d do differently:
