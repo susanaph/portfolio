@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image"
+import { ChevronRight } from "lucide-react"
 import { motion } from "framer-motion"
 import { FadeUp } from "@/components/fade-up"
 
@@ -9,7 +10,8 @@ const projects = [
     title: "Vandaag",
     description:
       "Built a Dutch language learning app. Installed as a PWA. Claude via API enables reading, writing, and speaking. Supports multi-user and authentication. 15-day streak and counting, B1 level. Love polishing how to apply gamification to create habits.",
-    tags: ["Claude", "Supabase", "Railway", "Deepgram", "gTTS", "GitHub"],
+    tags: ["Claude API", "Supabase", "Railway", "Deepgram", "gTTS", "GitHub"],
+    href: "https://vandaag.lovable.app/",
     image: (
       <div className="flex h-48 overflow-hidden rounded-t-xl">
         <div className="flex-1 overflow-hidden">
@@ -96,7 +98,18 @@ export function Building() {
                   <p className="text-base text-zinc-400 leading-relaxed flex-1">
                     {project.description}
                   </p>
-                  <div className="flex flex-wrap gap-1.5 mt-5">
+                  {"href" in project && project.href && (
+                    <a
+                      href={project.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 mt-5 text-sm font-medium text-violet-400 hover:text-violet-300 transition-colors group"
+                    >
+                      Try it
+                      <ChevronRight className="size-3.5 transition-transform duration-200 group-hover:translate-x-0.5" />
+                    </a>
+                  )}
+                  <div className="flex flex-wrap gap-1.5 mt-4">
                     {project.tags.map((tag) => (
                       <span
                         key={tag}
