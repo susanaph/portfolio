@@ -59,7 +59,7 @@ function SkillCard({ title, description, delay }: { title: string; description: 
 
 export function Skills() {
   return (
-    <section id="skills" className="pt-28 pb-16 px-6 bg-zinc-950"> 
+    <section id="skills" className="pt-16 pb-12 md:pt-28 md:pb-16 px-6 bg-zinc-950"> 
       <div className="mx-auto max-w-5xl">
         <FadeUp>
           <p className="mb-3 text-xs font-medium tracking-[0.25em] text-violet-400 uppercase">

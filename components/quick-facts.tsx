@@ -12,7 +12,7 @@ const facts = [
 
 export function QuickFacts() {
   return (
-    <section id="about" className="py-28 px-6">
+    <section id="about" className="py-16 md:py-28 px-6">
       <div className="mx-auto max-w-3xl">
         <FadeUp>
           <p className="mb-3 text-xs font-medium tracking-[0.25em] text-violet-400 uppercase">

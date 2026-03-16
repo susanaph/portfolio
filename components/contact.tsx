@@ -5,7 +5,7 @@ import { Linkedin, Calendar } from "lucide-react"
 
 export function Contact() {
   return (
-    <section id="contact" className="py-28 px-6 bg-zinc-950">
+    <section id="contact" className="py-16 md:py-28 px-6 bg-zinc-950">
       <div className="mx-auto max-w-3xl text-center">
         <FadeUp>
           <p className="mb-4 text-xs font-medium tracking-[0.25em] text-violet-400 uppercase">

@@ -29,7 +29,7 @@ const testimonials = [
 
 export function SocialProof() {
   return (
-    <section className="py-28 px-6">
+    <section className="py-16 md:py-28 px-6">
       <div className="mx-auto max-w-5xl">
         <FadeUp>
           <p className="mb-3 text-xs font-medium tracking-[0.25em] text-violet-400 uppercase">

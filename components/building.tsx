@@ -73,7 +73,7 @@ const projects = [
 
 export function Building() {
   return (
-    <section className="py-28 px-6 bg-zinc-950">
+    <section id="how-i-ai" className="py-16 md:py-28 px-6 bg-zinc-950">
       <div className="mx-auto max-w-5xl">
         <FadeUp>
           <p className="mb-3 text-xs font-medium tracking-[0.25em] text-violet-400 uppercase">
