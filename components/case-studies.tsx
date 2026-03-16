@@ -95,16 +95,14 @@ export function CaseStudies() {
               >
                 {/* Text column */}
                 <div className="flex flex-col flex-1 md:pr-8">
-                  <div className="flex items-start justify-between gap-4 mb-6">
-                    <div>
-                      <p className="text-xs font-medium text-violet-400 mb-2 tracking-wide">
-                        {cases[current].company}
-                      </p>
-                      <h3 className="text-3xl font-bold text-white tracking-tight">
-                        {cases[current].title}
-                      </h3>
-                    </div>
-                    <span className="shrink-0 text-sm text-zinc-500 border border-zinc-800 rounded-full px-3 py-1 mt-1">
+                  <div className="mb-6">
+                    <p className="text-xs font-medium text-violet-400 mb-2 tracking-wide">
+                      {cases[current].company}
+                    </p>
+                    <h3 className="text-3xl font-bold text-white tracking-tight mb-2">
+                      {cases[current].title}
+                    </h3>
+                    <span className="text-sm text-zinc-500">
                       {cases[current].tag}
                     </span>
                   </div>
