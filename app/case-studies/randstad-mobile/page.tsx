@@ -46,7 +46,7 @@ export default function RandstadMobile() {
       </div>
 
       {/* Hero image */}
-      <div className="py-12 px-6">
+      <div className="pt-12 pb-0 px-6">
         <FadeUp>
           <div className="mx-auto max-w-[900px] overflow-hidden rounded-xl border border-zinc-800">
             <Image
@@ -105,7 +105,7 @@ export default function RandstadMobile() {
                     alt="The Global Mobile App"
                     width={1200}
                     height={800}
-                    className="w-full h-auto"
+                    className="w-full h-auto object-contain max-h-[600px]"
                   />
                 </div>
                 <figcaption className="mt-2 text-xs text-zinc-600 leading-snug">
