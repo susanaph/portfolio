@@ -21,7 +21,7 @@ const testimonials = [
   {
     quote:
       "You are a unique person and a great team player. I have always valued your matter-of-fact approach, sense of humor, and pragmatism. Randstad has a truly top-notch specialist in its ranks.",
-    name: "AZ",
+    name: "Aleksandra Zgoda",
     title: "QA Engineer",
     company: "Randstad",
   },
