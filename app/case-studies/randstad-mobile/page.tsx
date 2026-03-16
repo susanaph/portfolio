@@ -54,7 +54,7 @@ export default function RandstadMobile() {
               alt="Randstad Global Mobile App"
               width={1800}
               height={1200}
-              className="w-full h-auto object-contain"
+              className="w-full h-auto"
               priority
             />
           </div>
@@ -95,42 +95,23 @@ export default function RandstadMobile() {
                   When I joined, the app was live in 10 countries with basic functionality and ratings sitting around 2.5 stars. The roadmap was ambitious: expand country coverage, replace legacy products, and build features that workers actually needed. Over two years we shipped shift management, notifications, absence and availability management, accessibility improvements, timesheets, expenses, e-signing, and a full rebrand and white-label spin-off for Tempo-Team and YouPlan.
                 </p>
                 <p>
-                  Shortly after joining, my scope expanded to include product ownership for the integrations and middleware team. I welcomed it. APIs, system dependencies, cloud infrastructure. I learned fast, asked a lot of questions, and made sure I never had to ask the same one twice. The tech lead told me that was rare. It&apos;s my advice for anyone new to a team: ask and take notes. Study your notes. And thanks for the compliment.
+                  Shortly after joining, my scope expanded to include product ownership for the integrations and middleware team. I welcomed it. This meant getting genuinely literate in system architecture: APIs, authentication flows, data contracts, error handling, how our mobile app communicated with 39 different market backends through a middleware layer. I learned fast, asked a lot of questions, and made sure I never had to ask the same one twice. The tech lead told me that was rare. It&apos;s my advice for anyone new to a team: ask and take notes. Study your notes. And thanks for the compliment.
                 </p>
               </div>
-            </section>
-          </FadeUp>
-
-          {/* App image */}
-          <FadeUp>
-            <figure>
-              <div className="overflow-hidden rounded-xl border border-zinc-800">
-                <Image
-                  src="/randstad-app.png"
-                  alt="The Global Mobile App"
-                  width={1200}
-                  height={800}
-                  className="w-full h-auto object-contain"
-                />
-              </div>
-              <figcaption className="mt-2 text-xs text-zinc-600 leading-snug">
-                The Global Mobile App — multiple brands, markets, and features from a single codebase
-              </figcaption>
-            </figure>
-          </FadeUp>
-
-          {/* Stakeholder management at scale */}
-          <FadeUp>
-            <section>
-              <h2 className="text-xl font-bold text-white mb-6">Stakeholder management at scale</h2>
-              <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
-                <p>
-                  This was a vast IT and product organization with a lot of moving parts. My job wasn&apos;t just to manage the backlog. It was to cut through the jungle and make a path for the team. I got deeply involved in ceremonies, protected the team&apos;s productive time, and kept the environment focused without losing momentum.
-                </p>
-                <p>
-                  My manager&apos;s direction when I joined was simple: own the product. Be the expert. Be involved. I took that seriously, and was recognized for it.
-                </p>
-              </div>
+              <figure className="mt-8">
+                <div className="overflow-hidden rounded-xl border border-zinc-800">
+                  <Image
+                    src="/randstad-app.png"
+                    alt="The Global Mobile App"
+                    width={1200}
+                    height={800}
+                    className="w-full h-auto"
+                  />
+                </div>
+                <figcaption className="mt-2 text-xs text-zinc-600 leading-snug">
+                  The Global Mobile App — multiple brands, markets, and features from a single codebase
+                </figcaption>
+              </figure>
             </section>
           </FadeUp>
 
@@ -143,7 +124,7 @@ export default function RandstadMobile() {
                   The ratings issue wasn&apos;t obvious. Users were leaving poor reviews but the signals weren&apos;t surfacing through normal channels. I combined app store feedback with our product analytics setup, taught myself enough SQL to query user events in BigQuery, and started looking for patterns.
                 </p>
                 <p>
-                  What I found were major bugs causing chronic user dissatisfaction. After releasing a new app version with the fixes, the response from my Italian colleague was: &ldquo;Finally we fix that.&rdquo; He went on to share that consultants in Italy had been fielding reports for years without knowing how to respond. The calls kept coming until we shipped the fix. Reducing operating expenses this way is how the product proves ROI.
+                  What I found were major bugs causing chronic user dissatisfaction: issues that had existed for a long time but hadn&apos;t been flagged for resolution due to how our systems communicated. After releasing a new app version with the fixes, the response from my Italian colleague was: &ldquo;Finally we fix that.&rdquo; He went on to share that consultants in Italy had been fielding reports for years without knowing how to respond. The calls kept coming until we shipped the fix. Reducing operating expenses this way is how the product proves ROI.
                 </p>
                 <p>
                   I replied to reviews personally, thanking users for their feedback and letting them know we were investigating. In a couple of cases, after notifying them that the fix was live, they updated their rating to 5 stars and left a comment thanking us for following through.
@@ -153,6 +134,21 @@ export default function RandstadMobile() {
                 </p>
                 <p>
                   Through my learning, I understood that the PO should care deeply about every aspect of the development process: QA, production setup, system health. You own it.
+                </p>
+              </div>
+            </section>
+          </FadeUp>
+
+          {/* Stakeholder management at scale */}
+          <FadeUp>
+            <section>
+              <h2 className="text-xl font-bold text-white mb-6">Stakeholder management at scale</h2>
+              <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
+                <p>
+                  This was a vast IT and product organization with a lot of moving parts, operating fully remotely across multiple time zones. My job wasn&apos;t just to manage the backlog. It was to cut through the jungle and make a path for the team. I got deeply involved in ceremonies, protected the team&apos;s productive time, and kept the environment focused without losing momentum.
+                </p>
+                <p>
+                  My manager&apos;s direction when I joined was simple: own the product. Be the expert. Be involved. I took that seriously, and was recognized for it. But what I&apos;m most proud of is the team culture we built. We incorporated user feedback directly into our backlog, communicated the impact of every release, and made sure the team could see the tens of thousands of people whose working lives we were improving. Meaningful work inspires excellent work. I believe that, and I tried to create it.
                 </p>
                 <p>
                   I visited the team in Poland a couple of times. Good work and good energy are not mutually exclusive — this team proved it.
@@ -165,7 +161,7 @@ export default function RandstadMobile() {
                     alt="The development team in Poland"
                     width={1200}
                     height={800}
-                    className="w-full h-auto object-contain"
+                    className="w-full h-auto"
                   />
                 </div>
                 <figcaption className="mt-2 text-xs text-zinc-600 leading-snug">
@@ -175,10 +171,10 @@ export default function RandstadMobile() {
             </section>
           </FadeUp>
 
-          {/* The outcome that mattered most */}
+          {/* The outcome */}
           <FadeUp>
             <section>
-              <h2 className="text-xl font-bold text-white mb-6">The outcome that mattered most</h2>
+              <h2 className="text-xl font-bold text-white mb-6">The outcome</h2>
               <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
                 <p>
                   By the time I left, the app was live in 26 countries, MAU had grown 10x, and ratings had climbed to 4.6+ on both the App Store and Google Play. Powering 3 different brands from the same codebase.
