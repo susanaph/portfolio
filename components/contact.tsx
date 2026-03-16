@@ -8,8 +8,13 @@ export function Contact({ compact = false, subtext }: { compact?: boolean; subte
     <section id="contact" className={compact ? "py-16 px-6" : "py-16 md:py-28 px-6 bg-zinc-950"}>
       <div className="mx-auto max-w-3xl text-center">
         <FadeUp>
-          <h2 className={`mb-4 font-bold tracking-tight text-white ${compact ? "text-2xl" : "text-3xl md:text-4xl"}`}>
-            Want to connect?
+          {!compact && (
+            <p className="mb-4 text-xs font-medium tracking-[0.25em] text-violet-400 uppercase">
+              Contact
+            </p>
+          )}
+          <h2 className={`mb-4 font-bold tracking-tight text-white ${compact ? "text-3xl" : "text-3xl md:text-4xl"}`}>
+            {compact ? "Want to connect?" : "Let\u2019s connect."}
           </h2>
           <p className="mb-10 text-base text-zinc-500 leading-relaxed">
             {subtext ?? "Open to new opportunities, conversations, and chats over a cup of tea."}
