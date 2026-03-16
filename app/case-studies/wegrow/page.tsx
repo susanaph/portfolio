@@ -266,7 +266,7 @@ export default function WeGrow() {
         </Link>
       </nav>
 
-      <Contact compact subtext="Open to discuss how to spot the warning signs that your investment may be at risk." />
+      <Contact compact subtext="Open to discuss how to spot the warning signs that your innovation investment may be at risk." />
 
       <footer className="border-t border-zinc-800/60 py-8 px-6 text-center">
         <p className="text-xs text-zinc-700">
