@@ -22,7 +22,7 @@ const caseStudyTOC: Record<string, { title: string; sections: { label: string; h
     ],
   },
   "/case-studies/randstad-mobile": {
-    title: "Global Mobile App",
+    title: "Talent App",
     sections: [
       { label: "The opportunity", href: "#opportunity" },
       { label: "The product", href: "#the-product" },

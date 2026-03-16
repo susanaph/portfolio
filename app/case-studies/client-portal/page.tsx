@@ -198,7 +198,7 @@ export default function ClientPortal() {
         <Link href="/case-studies/randstad-mobile" className="group text-left">
           <p className="text-xs text-zinc-500 mb-1">Previous</p>
           <p className="text-sm font-medium text-zinc-300 group-hover:text-white transition-colors inline-flex items-center gap-1">
-            <ChevronLeft className="size-3.5 transition-transform duration-200 group-hover:-translate-x-0.5" /> Global Mobile App
+            <ChevronLeft className="size-3.5 transition-transform duration-200 group-hover:-translate-x-0.5" /> Talent App
           </p>
         </Link>
       </nav>
