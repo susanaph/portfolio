@@ -55,16 +55,16 @@ const projects = [
   {
     title: "Automating product ops",
     description:
-      "Built a Google Chat app connecting to our on-premise Jira instance to track delivery at scale. Also using Gemini to document requirements and track to-dos, cutting the back-and-forth that slows product teams down.",
-    tags: ["Google Apps Script", "Gemini", "Jira", "Google Workflows"],
+      "Built a Google Chat app connecting to our on-premise Jira instance to track delivery at scale. Using Gemini to automate workflows, reduce repetitive work, track to-dos, and cut the back-and-forth that slows product teams down.",
+    tags: ["Google Apps Script", "Gemini", "Jira", "Workspace Studio"],
     image: (
       <div className="h-48 overflow-hidden rounded-t-xl">
         <Image
-          src="/apps-script.png"
-          alt="Google Apps Script automation"
+          src="/google-workflow.png"
+          alt="Google Workflow automation"
           width={600}
           height={192}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-top"
         />
       </div>
     ),

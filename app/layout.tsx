@@ -13,9 +13,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://susana-perez.com"),
   title: "Susana Perez — Product Manager",
   description:
-    "Product Manager with 6+ years building B2B and B2C products across web, mobile, and global markets. Based in Amsterdam.",
+    "Product Manager specializing in bringing clarity, alignment, and momentum to complex product environments. Based in Amsterdam.",
+  alternates: {
+    canonical: "https://susana-perez.com",
+  },
+  openGraph: {
+    title: "Susana Perez — Product Manager",
+    description:
+      "Product Manager specializing in bringing clarity, alignment, and momentum to complex product environments. Based in Amsterdam.",
+    url: "https://susana-perez.com",
+    siteName: "Susana Perez",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Susana Perez — Product Manager",
+    description:
+      "Product Manager specializing in bringing clarity, alignment, and momentum to complex product environments.",
+  },
 };
 
 export default function RootLayout({

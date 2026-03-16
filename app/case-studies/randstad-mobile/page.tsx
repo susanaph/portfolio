@@ -1,8 +1,23 @@
-"use client"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Global Mobile App Case Study — Susana Perez",
+  description:
+    "How I scaled Randstad's global talent app from 10 to 26 countries, grew MAU 10x, and raised ratings from 2.5 to 4.6 stars.",
+  alternates: {
+    canonical: "https://susana-perez.com/case-studies/randstad-mobile",
+  },
+  openGraph: {
+    title: "Global Mobile App Case Study — Susana Perez",
+    description:
+      "How I scaled Randstad's global talent app from 10 to 26 countries, grew MAU 10x, and raised ratings from 2.5 to 4.6 stars.",
+    url: "https://susana-perez.com/case-studies/randstad-mobile",
+  },
+}
 
 import Link from "next/link"
 import Image from "next/image"
-import { ArrowLeft } from "lucide-react"
+import { ArrowLeft, ChevronLeft, ChevronRight } from "lucide-react"
 import { Nav } from "@/components/nav"
 import { FadeUp } from "@/components/fade-up"
 
@@ -48,9 +63,9 @@ export default function RandstadMobile() {
       {/* Hero image */}
       <div className="pt-12 pb-0 px-6">
         <FadeUp>
-          <div className="mx-auto max-w-[900px] overflow-hidden rounded-xl border border-zinc-800">
+          <div className="mx-auto max-w-[720px] overflow-hidden rounded-xl border border-zinc-800">
             <Image
-              src="/randstad-appstore.png"
+              src="/randstad-appstore2.png"
               alt="Randstad Global Mobile App"
               width={1800}
               height={1200}
@@ -62,7 +77,7 @@ export default function RandstadMobile() {
       </div>
 
       {/* Content */}
-      <article className="py-16 px-6 pb-32">
+      <article className="pt-16 px-6">
         <div className="mx-auto max-w-[720px] space-y-20">
 
           {/* The opportunity */}
@@ -193,7 +208,47 @@ export default function RandstadMobile() {
           </FadeUp>
 
         </div>
+
+        {/* Tech stack */}
+        <div className="mx-auto max-w-[720px] border-t border-zinc-800 mt-10 pt-10 pb-10 space-y-4">
+          <div className="flex flex-wrap items-start gap-3">
+            <span className="w-28 shrink-0 text-sm text-zinc-500 pt-1">Tech stack</span>
+            <div className="flex flex-wrap gap-2">
+              {["Swift", "Kotlin", "AWS", "REST APIs", "DevOps"].map((tag) => (
+                <span key={tag} className="font-mono text-sm text-zinc-300 bg-zinc-900 border border-zinc-800 rounded-md px-3 py-1.5">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+          <div className="flex flex-wrap items-start gap-3">
+            <span className="w-28 shrink-0 text-sm text-zinc-500 pt-1">My tools</span>
+            <div className="flex flex-wrap gap-2">
+              {["BigQuery", "SQL", "Firebase", "Splunk", "Applanga", "Postman"].map((tag) => (
+                <span key={tag} className="font-mono text-sm text-zinc-300 bg-zinc-900 border border-zinc-800 rounded-md px-3 py-1.5">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
       </article>
+
+      {/* Case study navigation */}
+      <nav className="mx-auto max-w-[720px] px-6 pt-8 pb-32 flex justify-between">
+        <Link href="/case-studies/wegrow" className="group text-left">
+          <p className="text-xs text-zinc-500 mb-1">Previous</p>
+          <p className="text-sm font-medium text-zinc-300 group-hover:text-white transition-colors inline-flex items-center gap-1">
+            <ChevronLeft className="size-3.5 transition-transform duration-200 group-hover:-translate-x-0.5" /> WeGrow
+          </p>
+        </Link>
+        <Link href="/case-studies/client-portal" className="group text-right">
+          <p className="text-xs text-zinc-500 mb-1">Next</p>
+          <p className="text-sm font-medium text-violet-400 group-hover:text-violet-300 transition-colors inline-flex items-center gap-1">
+            Client Portal <ChevronRight className="size-3.5 transition-transform duration-200 group-hover:translate-x-0.5" />
+          </p>
+        </Link>
+      </nav>
 
       <footer className="border-t border-zinc-800/60 py-8 px-6 text-center">
         <p className="text-xs text-zinc-700">

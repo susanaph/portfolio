@@ -24,11 +24,11 @@ const cases = [
   },
   {
     title: "Client Portal",
-    company: "Randstad",
-    tag: "B2B Platform · 0→1",
+    company: "RANDSTAD",
+    tag: "B2B · Global Platform",
     description:
-      "Leading a B2B platform from zero — building the foundation for a self-service portal that connected clients with workforce solutions and reduced dependency on manual processes.",
-    href: "#",
+      "A global B2B platform built from zero. From market research and team building to a live product in 3 countries.",
+    href: "/case-studies/client-portal",
   },
 ]
 

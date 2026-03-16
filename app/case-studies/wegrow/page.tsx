@@ -1,8 +1,23 @@
-"use client"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "WeGrow Case Study — Susana Perez",
+  description:
+    "How I built a B2B SaaS people analytics product from zero at NEORIS — from hackathon win to App Store launch.",
+  alternates: {
+    canonical: "https://susana-perez.com/case-studies/wegrow",
+  },
+  openGraph: {
+    title: "WeGrow Case Study — Susana Perez",
+    description:
+      "How I built a B2B SaaS people analytics product from zero at NEORIS — from hackathon win to App Store launch.",
+    url: "https://susana-perez.com/case-studies/wegrow",
+  },
+}
 
 import Link from "next/link"
 import Image from "next/image"
-import { ArrowLeft } from "lucide-react"
+import { ArrowLeft, ChevronRight } from "lucide-react"
 import { Nav } from "@/components/nav"
 import { FadeUp } from "@/components/fade-up"
 
@@ -65,7 +80,7 @@ export default function WeGrow() {
       </div>
 
       {/* Content */}
-      <article className="py-16 px-6 pb-32">
+      <article className="pt-10 px-6">
         <div className="mx-auto max-w-[720px] space-y-20">
 
           {/* The origin */}
@@ -73,12 +88,12 @@ export default function WeGrow() {
             <FadeUp>
               <h2 className="text-xl font-bold text-white mb-6">The origin</h2>
               <p className="text-base text-zinc-400 leading-relaxed">
-                It started with a hackathon. As a recruiting manager with no product background, I signed up to support an internal innovation initiative. Mostly out of curiosity. What I discovered in those 24 hours surprised me: I had a lot to contribute. Not code, but clarity. Our team won out of roughly 8–9 competing teams across a 150-person office.
+                It started with a hackathon. As a recruiting manager with no product background, I signed up to support an internal innovation initiative. Mostly out of curiosity. What I discovered in those 24 hours surprised me: I had a lot to contribute. Not code, but clarity. Our team won out of roughly 8 competing teams across a 150-person office.
               </p>
             </FadeUp>
 
             <FadeUp delay={0.05}>
-              <figure className="mx-auto max-w-[600px]">
+              <figure>
                 <div className="overflow-hidden rounded-xl border border-zinc-800">
                   <Image
                     src="/wegrow-sketch.png"
@@ -101,10 +116,10 @@ export default function WeGrow() {
             </FadeUp>
 
             <FadeUp delay={0.05}>
-              <figure className="mx-auto max-w-[600px]">
+              <figure>
                 <div className="flex items-center justify-center overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900" style={{ maxHeight: "500px" }}>
                   <Image
-                    src="/wegrow-hack4.png"
+                    src="/wegrow-hack6.png"
                     alt="The NEORIS hackathon, Oct 2019"
                     width={600}
                     height={450}
@@ -129,36 +144,20 @@ export default function WeGrow() {
             </FadeUp>
 
             <FadeUp delay={0.05}>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <figure className="flex-1 min-w-0">
-                  <div className="flex items-center justify-center h-[280px] overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900">
-                    <Image
-                      src="/wegrow-mobileapp.png"
-                      alt="WeGrow mobile app"
-                      width={600}
-                      height={450}
-                      className="w-full h-full object-contain"
-                    />
-                  </div>
-                  <figcaption className="mt-2 text-xs text-zinc-600 leading-snug">
-                    WeGrow mobile app
-                  </figcaption>
-                </figure>
-                <figure className="flex-1 min-w-0">
-                  <div className="flex items-center justify-center h-[280px] overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900">
-                    <Image
-                      src="/wegrow-web3.png"
-                      alt="WeGrow Analytics"
-                      width={600}
-                      height={450}
-                      className="w-full h-full object-contain"
-                    />
-                  </div>
-                  <figcaption className="mt-2 text-xs text-zinc-600 leading-snug">
-                    WeGrow Analytics
-                  </figcaption>
-                </figure>
-              </div>
+              <figure className="md:-mx-[140px]">
+                <div className="overflow-hidden rounded-xl border border-zinc-800">
+                  <Image
+                    src="/wegrow-product2.png"
+                    alt="WeGrow mobile app and analytics dashboard"
+                    width={1000}
+                    height={600}
+                    className="w-full h-auto object-contain"
+                  />
+                </div>
+                <figcaption className="md:mx-[140px] mt-2 text-xs text-zinc-600 leading-snug">
+                  WeGrow — mobile app and analytics dashboard
+                </figcaption>
+              </figure>
             </FadeUp>
 
             <FadeUp delay={0.05}>
@@ -179,10 +178,10 @@ export default function WeGrow() {
               <h2 className="text-xl font-bold text-white mb-6">Shipping it</h2>
               <div className="space-y-5 text-base text-zinc-400 leading-relaxed">
                 <p>
-                  Getting a product out the door at a company that had never shipped a product before meant fighting organizational inertia at every step. Scheduling a penetration test took months. Getting App Store accounts took weeks. Nothing had a precedent.
+                  Getting a product out the door at a company that had never shipped a product before meant fighting organizational inertia at every step. Scheduling a penetration test or getting App Store accounts took months. Nothing had a precedent.
                 </p>
                 <p>
-                  We launched on iOS and Android. We launched the dashboarding app. We deployed internally to 3,500 employees globally. The dev team told me I wrote the best user stories they&apos;d ever seen, which baffled me, because I assumed everyone did it this way.
+                  We launched on iOS and Android. We launched the dashboarding app. We deployed internally to 3,500 employees globally. The dev team told me I wrote the best user stories they&apos;d ever seen, which surprised and flattered me, I assumed everyone did it this way.
                 </p>
                 <p>
                   When I pitched to the C-suite, the former COO, a 20+ year company veteran who I wasn&apos;t sure liked me, sent me an audio note afterward. He said the leadership team had gone in with doubts about the company&apos;s technology partnerships and investments, including Neo4j, which sat outside their traditional Microsoft stack. After my presentation, they lit up. I had connected the product, the technology choices, the analytics, the competitive landscape, and the vision in a way that made it all click. He said I&apos;d knocked it out of the park, mentioned something about sparkles like Christmas lights, and called it the best pitch he&apos;d seen at the company. His exact words: &ldquo;Your presentation was the best. Impeccable. Te luciste.&rdquo;
@@ -191,7 +190,7 @@ export default function WeGrow() {
                   I went on to pitch to 15–20 potential clients across the Czech Republic, Spain, Argentina, Mexico, and the United States.
                 </p>
               </div>
-              <figure className="mt-8 mx-auto max-w-[600px]">
+              <figure className="mt-8">
                 <div className="overflow-hidden rounded-xl border border-zinc-800">
                   <Image
                     src="/wegrow-hero.png"
@@ -240,7 +239,31 @@ export default function WeGrow() {
           </FadeUp>
 
         </div>
+
+        {/* Tech stack */}
+        <div className="mx-auto max-w-[720px] border-t border-zinc-800 mt-10 pt-10 pb-10 space-y-4">
+          <div className="flex flex-wrap items-start gap-3">
+            <span className="w-28 shrink-0 text-sm text-zinc-500 pt-1">Tech stack</span>
+            <div className="flex flex-wrap gap-2">
+              {["Neo4j", "GraphQL", "Apollo", "React Native", "Azure"].map((tag) => (
+                <span key={tag} className="font-mono text-sm text-zinc-300 bg-zinc-900 border border-zinc-800 rounded-md px-3 py-1.5">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
       </article>
+
+      {/* Case study navigation */}
+      <nav className="mx-auto max-w-[720px] px-6 pt-8 pb-32 flex justify-end">
+        <Link href="/case-studies/randstad-mobile" className="group text-right">
+          <p className="text-xs text-zinc-500 mb-1">Next</p>
+          <p className="text-sm font-medium text-violet-400 group-hover:text-violet-300 transition-colors inline-flex items-center gap-1">
+            Global Mobile App <ChevronRight className="size-3.5 transition-transform duration-200 group-hover:translate-x-0.5" />
+          </p>
+        </Link>
+      </nav>
 
       <footer className="border-t border-zinc-800/60 py-8 px-6 text-center">
         <p className="text-xs text-zinc-700">

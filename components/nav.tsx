@@ -24,7 +24,7 @@ export function Nav() {
         className="absolute inset-x-0 bottom-0 h-px bg-zinc-800"
         style={{ opacity: borderOpacity }}
       />
-      <a href="#hero" className="text-sm font-semibold text-white tracking-tight">
+      <a href="/" className="text-sm font-semibold text-white tracking-tight">
         SP
       </a>
       <div className="flex items-center gap-6">
