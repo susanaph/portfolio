@@ -1,8 +1,9 @@
 "use client"
 
 import { motion, useScroll, useTransform } from "framer-motion"
+import { usePathname } from "next/navigation"
 
-const links = [
+const homeLinks = [
   { label: "Work", href: "#work" },
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
@@ -10,9 +11,17 @@ const links = [
   { label: "Contact", href: "#contact" },
 ]
 
+const caseStudyLinks = [
+  { label: "Portfolio", href: "/" },
+  { label: "Work", href: "/#work" },
+  { label: "Contact", href: "/#contact" },
+]
+
 export function Nav() {
   const { scrollY } = useScroll()
   const borderOpacity = useTransform(scrollY, [0, 80], [0, 1])
+  const pathname = usePathname()
+  const links = pathname.startsWith("/case-studies") ? caseStudyLinks : homeLinks
 
   return (
     <motion.nav
