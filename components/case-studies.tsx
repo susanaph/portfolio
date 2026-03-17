@@ -131,7 +131,7 @@ export function CaseStudies() {
 
                 {/* Image column */}
                 <div className="flex-shrink-0 flex justify-center items-center">
-                  <div className="h-[220px] md:h-[340px] overflow-hidden rounded-lg">
+                  <a href={cases[current].href} className="h-[220px] md:h-[340px] overflow-hidden rounded-lg block">
                     <Image
                       src={cases[current].image}
                       alt={cases[current].title}
@@ -139,7 +139,7 @@ export function CaseStudies() {
                       height={390}
                       className="h-full w-auto object-cover object-top rounded-lg"
                     />
-                  </div>
+                  </a>
                 </div>
               </motion.div>
             </AnimatePresence>
