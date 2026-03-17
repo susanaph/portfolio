@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Susana Perez — Product & Innovation",
     description:
-      "Bringing clarity, alignment, and momentum to complex product environments.",
+      "PM with 6+ years building B2B & B2C products across web and mobile. Bringing clarity, alignment, and momentum to complex product environments.",
     url: "https://susana-perez.com",
     siteName: "Susana Perez",
     images: [
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Susana Perez — Product & Innovation",
     description:
-      "Bringing clarity, alignment, and momentum to complex product environments.",
+      "PM with 6+ years building B2B & B2C products across web and mobile. Bringing clarity, alignment, and momentum to complex product environments.",
     images: ["/og-image.png"],
   },
 };
