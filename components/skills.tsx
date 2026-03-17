@@ -38,7 +38,7 @@ const toolRows = [
   },
   {
     label: "Building with",
-    items: ["Claude Code", "Lovable", "Supabase", "GitHub", "Balsamiq", "Canva", "Deepgram"],
+    items: ["Claude Code", "Canva", "Balsamiq", "Lovable", "GitHub"],
   },
 ]
 
