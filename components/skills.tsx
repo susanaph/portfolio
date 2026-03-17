@@ -34,7 +34,7 @@ const skills = [
 const toolRows = [
   {
     label: "Tools",
-    items: ["Jira", "Confluence", "Figma", "FigJam", "Google Workspace", "REST APIs", "Apps Script"],
+    items: ["Jira", "Confluence", "Figma", "Google Workspace", "REST APIs", "Apps Script"],
   },
   {
     label: "Building with",
