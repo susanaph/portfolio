@@ -15,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: "https://susana-perez.com/case-studies/randstad-mobile",
+      url: "https://susana-perez.com/case-studies/talent-app",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,

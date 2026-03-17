@@ -195,7 +195,7 @@ export default function ClientPortal() {
 
       {/* Case study navigation */}
       <nav className="mx-auto max-w-[720px] px-6 pt-8 pb-8 flex justify-start">
-        <Link href="/case-studies/randstad-mobile" className="group text-left">
+        <Link href="/case-studies/talent-app" className="group text-left">
           <p className="text-xs text-zinc-500 mb-1">Previous</p>
           <p className="text-sm font-medium text-zinc-300 group-hover:text-white transition-colors inline-flex items-center gap-1">
             <ChevronLeft className="size-3.5 transition-transform duration-200 group-hover:-translate-x-0.5" /> Global Mobile App

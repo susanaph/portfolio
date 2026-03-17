@@ -258,7 +258,7 @@ export default function WeGrow() {
 
       {/* Case study navigation */}
       <nav className="mx-auto max-w-[720px] px-6 pt-8 pb-8 flex justify-end">
-        <Link href="/case-studies/randstad-mobile" className="group text-right">
+        <Link href="/case-studies/talent-app" className="group text-right">
           <p className="text-xs text-zinc-500 mb-1">Next</p>
           <p className="text-sm font-medium text-violet-400 group-hover:text-violet-300 transition-colors inline-flex items-center gap-1">
             Global Mobile App <ChevronRight className="size-3.5 transition-transform duration-200 group-hover:translate-x-0.5" />
