@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Susana Perez",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://susana-perez.com/og-image.png",
         width: 1200,
         height: 630,
         alt: "Susana Perez — Product & Innovation",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Susana Perez — Product & Innovation",
     description:
       "PM with 6+ years building B2B & B2C products across web and mobile. Bringing clarity, alignment, and momentum to complex product environments.",
-    images: ["/og-image.png"],
+    images: ["https://susana-perez.com/og-image.png"],
   },
 };
 
