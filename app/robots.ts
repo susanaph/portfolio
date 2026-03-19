@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://susana-perez.com/sitemap.xml",
+    sitemap: "https://www.susana-perez.com/sitemap.xml",
   }
 }

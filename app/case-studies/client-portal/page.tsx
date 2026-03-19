@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   description:
     "How I built a global B2B client portal from zero at Randstad — from market research and team building to a live product in 3 countries.",
   alternates: {
-    canonical: "https://susana-perez.com/case-studies/client-portal",
+    canonical: "https://www.susana-perez.com/case-studies/client-portal",
   },
   openGraph: {
     title: "Client Portal Case Study — Susana Perez",
     description:
       "How I built a global B2B client portal from zero at Randstad — from market research and team building to a live product in 3 countries.",
-    url: "https://susana-perez.com/case-studies/client-portal",
+    url: "https://www.susana-perez.com/case-studies/client-portal",
   },
 }
 
@@ -132,6 +132,16 @@ export default function ClientPortal() {
                   We have been praised for our resilience, our organization, and genuinely having a good team culture. I&apos;ll take that. When I reduced my hours for a few weeks during my move from Prague to Amsterdam, things kept running. That&apos;s not luck. That&apos;s what good organizational design looks like in practice.
                 </p>
               </div>
+              <figure className="mt-8">
+                <div className="overflow-hidden rounded-xl border border-zinc-800">
+                  <img
+                    src="/portal-teams.png"
+                    alt="With colleagues from around the world at Randstad Global"
+                    className="w-full h-auto"
+                  />
+                </div>
+                <figcaption className="mt-3 text-sm text-zinc-500">With colleagues from around the world at Randstad Global</figcaption>
+              </figure>
             </section>
           </FadeUp>
 

@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   description:
     "How I built a B2B SaaS people analytics product from zero at NEORIS — from hackathon win to App Store launch.",
   alternates: {
-    canonical: "https://susana-perez.com/case-studies/wegrow",
+    canonical: "https://www.susana-perez.com/case-studies/wegrow",
   },
   openGraph: {
     title: "WeGrow Case Study — Susana Perez",
     description:
       "How I built a B2B SaaS people analytics product from zero at NEORIS — from hackathon win to App Store launch.",
-    url: "https://susana-perez.com/case-studies/wegrow",
+    url: "https://www.susana-perez.com/case-studies/wegrow",
   },
 }
 
