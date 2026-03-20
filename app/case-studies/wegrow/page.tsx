@@ -21,6 +21,7 @@ import { ArrowLeft, ChevronRight } from "lucide-react"
 import { Nav } from "@/components/nav"
 import { FadeUp } from "@/components/fade-up"
 import { Contact } from "@/components/contact"
+import { Footer } from "@/components/footer"
 
 const learnedPoints = [
   {
@@ -272,11 +273,7 @@ export default function WeGrow() {
 
       <Contact compact subtext="Open to discuss how to spot the warning signs that your innovation investment may be at risk." />
 
-      <footer className="border-t border-zinc-800/60 py-8 px-6 text-center">
-        <p className="text-xs text-zinc-700">
-          © {new Date().getFullYear()} Susana Perez · Built with Next.js &amp; Claude Code
-        </p>
-      </footer>
+      <Footer />
     </main>
   )
 }

@@ -4,6 +4,7 @@ import { ArrowLeft, ChevronLeft } from "lucide-react"
 import { Nav } from "@/components/nav"
 import { FadeUp } from "@/components/fade-up"
 import { Contact } from "@/components/contact"
+import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
   title: "Client Portal Case Study — Susana Perez",
@@ -215,11 +216,7 @@ export default function ClientPortal() {
 
       <Contact compact subtext="Open to discuss how you can scale your organization while boosting team morale." />
 
-      <footer className="border-t border-zinc-800/60 py-8 px-6 text-center">
-        <p className="text-xs text-zinc-700">
-          © {new Date().getFullYear()} Susana Perez · Built with Next.js &amp; Claude Code
-        </p>
-      </footer>
+      <Footer />
     </main>
   )
 }

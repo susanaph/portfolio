@@ -21,6 +21,7 @@ import { ArrowLeft, ChevronLeft, ChevronRight } from "lucide-react"
 import { Nav } from "@/components/nav"
 import { FadeUp } from "@/components/fade-up"
 import { Contact } from "@/components/contact"
+import { Footer } from "@/components/footer"
 
 export default function RandstadMobile() {
   return (
@@ -253,11 +254,7 @@ export default function RandstadMobile() {
 
       <Contact compact subtext="Open to help you plan how to upskill your product team with proven paths and methods." />
 
-      <footer className="border-t border-zinc-800/60 py-8 px-6 text-center">
-        <p className="text-xs text-zinc-700">
-          © {new Date().getFullYear()} Susana Perez · Built with Next.js &amp; Claude Code
-        </p>
-      </footer>
+      <Footer />
     </main>
   )
 }
