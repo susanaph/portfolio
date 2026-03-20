@@ -123,7 +123,7 @@ export function CaseStudies() {
                       href={cases[current].href}
                       className="inline-flex items-center gap-1.5 text-sm font-medium text-violet-400 hover:text-violet-300 transition-colors group"
                     >
-                      Read more
+                      Read {cases[current].title} case study
                       <ChevronRight className="size-3.5 transition-transform duration-200 group-hover:translate-x-0.5" />
                     </a>
                   </div>
