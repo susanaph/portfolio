@@ -90,7 +90,6 @@ export function Hero() {
                   height={306}
                   priority
                   className="w-full h-full object-cover"
-                  priority
                 />
               </div>
             </div>
