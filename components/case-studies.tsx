@@ -135,9 +135,9 @@ export function CaseStudies() {
                     <Image
                       src={cases[current].image}
                       alt={cases[current].title}
-                      width={180}
-                      height={390}
-                      sizes="180px"
+                      width={220}
+                      height={454}
+                      sizes="(max-width: 768px) 110px, 165px"
                       className="h-full w-auto object-cover object-top rounded-lg"
                     />
                   </a>
