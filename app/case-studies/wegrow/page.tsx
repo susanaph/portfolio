@@ -53,7 +53,7 @@ export default function WeGrow() {
           <FadeUp>
             <Link
               href="/#work"
-              className="inline-flex items-center gap-2 text-sm text-zinc-600 hover:text-zinc-300 transition-colors mb-12"
+              className="inline-flex items-center gap-2 text-sm text-zinc-400 hover:text-zinc-300 transition-colors mb-12"
             >
               <ArrowLeft className="size-3.5" />
               Back
@@ -67,10 +67,10 @@ export default function WeGrow() {
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-white leading-tight mb-4">
               WeGrow
             </h1>
-            <p className="text-sm text-zinc-500 mb-6">
+            <p className="text-sm text-zinc-400 mb-6">
               Product Owner · Oct 2019 – Dec 2021
             </p>
-            <span className="inline-block text-xs text-zinc-500 border border-zinc-800 rounded-full px-3 py-1">
+            <span className="inline-block text-xs text-zinc-400 border border-zinc-700 rounded-full px-3 py-1">
               B2B SaaS · 0→1
             </span>
           </FadeUp>
@@ -106,7 +106,7 @@ export default function WeGrow() {
                     className="w-full h-auto object-contain"
                   />
                 </div>
-                <figcaption className="mt-2 text-xs text-zinc-600 leading-snug">
+                <figcaption className="mt-2 text-xs text-zinc-400 leading-snug">
                   Product architecture sketched on an iPad during the hackathon
                 </figcaption>
               </figure>
@@ -131,7 +131,7 @@ export default function WeGrow() {
                     style={{ maxHeight: "500px" }}
                   />
                 </div>
-                <figcaption className="mt-2 text-xs text-zinc-600 leading-snug">
+                <figcaption className="mt-2 text-xs text-zinc-400 leading-snug">
                   The NEORIS hackathon, Oct 2019
                 </figcaption>
               </figure>
@@ -159,7 +159,7 @@ export default function WeGrow() {
                     className="w-full h-auto object-contain"
                   />
                 </div>
-                <figcaption className="md:mx-[140px] mt-2 text-xs text-zinc-600 leading-snug">
+                <figcaption className="md:mx-[140px] mt-2 text-xs text-zinc-400 leading-snug">
                   WeGrow — mobile app and analytics dashboard
                 </figcaption>
               </figure>
@@ -206,7 +206,7 @@ export default function WeGrow() {
                     className="w-full h-auto object-contain"
                   />
                 </div>
-                <figcaption className="mt-2 text-xs text-zinc-600 leading-snug">
+                <figcaption className="mt-2 text-xs text-zinc-400 leading-snug">
                   The WeGrow landing page, still live at{" "}
                   <a
                     href="https://epamneoris.com/wegrow"
@@ -249,7 +249,7 @@ export default function WeGrow() {
         {/* Tech stack */}
         <div className="mx-auto max-w-[720px] border-t border-zinc-800 mt-10 pt-10 pb-10 space-y-4">
           <div className="flex flex-wrap items-start gap-3">
-            <span className="w-28 shrink-0 text-sm text-zinc-500 pt-1">Tech stack</span>
+            <span className="w-28 shrink-0 text-sm text-zinc-400 pt-1">Tech stack</span>
             <div className="flex flex-wrap gap-2">
               {["Neo4j", "GraphQL", "Apollo", "React Native", "Azure"].map((tag) => (
                 <span key={tag} className="font-mono text-sm text-zinc-300 bg-zinc-900 border border-zinc-800 rounded-md px-3 py-1.5">
@@ -264,7 +264,7 @@ export default function WeGrow() {
       {/* Case study navigation */}
       <nav className="mx-auto max-w-[720px] px-6 pt-8 pb-8 flex justify-end">
         <Link href="/case-studies/talent-app" className="group text-right">
-          <p className="text-xs text-zinc-500 mb-1">Next</p>
+          <p className="text-xs text-zinc-400 mb-1">Next</p>
           <p className="text-sm font-medium text-violet-400 group-hover:text-violet-300 transition-colors inline-flex items-center gap-1">
             Talent App <ChevronRight className="size-3.5 transition-transform duration-200 group-hover:translate-x-0.5" />
           </p>

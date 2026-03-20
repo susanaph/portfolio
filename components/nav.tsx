@@ -71,7 +71,7 @@ export function Nav() {
           <a href="/#work" className={linkClass}>
             ← Portfolio
           </a>
-          <span className="text-sm text-zinc-600">{toc.title}</span>
+          <span className="text-sm text-zinc-400">{toc.title}</span>
         </div>
       ) : (
         <div className="flex items-center gap-6">
