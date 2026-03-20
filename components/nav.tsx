@@ -43,7 +43,7 @@ const caseStudyTOC: Record<string, { title: string; sections: { label: string; h
   },
 }
 
-const linkClass = "text-sm text-zinc-500 hover:text-white transition-colors duration-200"
+const linkClass = "text-sm text-zinc-300 hover:text-white transition-colors duration-200"
 
 export function Nav() {
   const { scrollY } = useScroll()
