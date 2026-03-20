@@ -88,6 +88,7 @@ export function Hero() {
                   alt="Susana Perez"
                   width={306}
                   height={306}
+                  priority
                   className="w-full h-full object-cover"
                   priority
                 />
