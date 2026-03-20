@@ -137,6 +137,7 @@ export function CaseStudies() {
                       alt={cases[current].title}
                       width={180}
                       height={390}
+                      sizes="180px"
                       className="h-full w-auto object-cover object-top rounded-lg"
                     />
                   </a>
