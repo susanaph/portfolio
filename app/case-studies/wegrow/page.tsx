@@ -101,6 +101,7 @@ export default function WeGrow() {
                     alt="Product architecture sketch from the hackathon"
                     width={600}
                     height={450}
+                    sizes="(max-width: 768px) 100vw, 724px"
                     className="w-full h-auto object-contain"
                   />
                 </div>
@@ -124,6 +125,7 @@ export default function WeGrow() {
                     alt="The NEORIS hackathon, Oct 2019"
                     width={600}
                     height={450}
+                    sizes="(max-width: 768px) 100vw, 724px"
                     className="w-full h-auto object-contain"
                     style={{ maxHeight: "500px" }}
                   />
@@ -152,6 +154,7 @@ export default function WeGrow() {
                     alt="WeGrow mobile app and analytics dashboard"
                     width={1000}
                     height={600}
+                    sizes="(max-width: 768px) 100vw, 1000px"
                     className="w-full h-auto object-contain"
                   />
                 </div>
@@ -198,6 +201,7 @@ export default function WeGrow() {
                     alt="The WeGrow landing page"
                     width={600}
                     height={450}
+                    sizes="(max-width: 768px) 100vw, 724px"
                     className="w-full h-auto object-contain"
                   />
                 </div>
