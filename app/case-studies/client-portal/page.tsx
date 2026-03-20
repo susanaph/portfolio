@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   description:
     "How I built a global B2B client portal from zero at Randstad — from market research and team building to a live product in 3 countries.",
   alternates: {
-    canonical: "https://www.susana-perez.com/case-studies/client-portal",
+    canonical: "https://susana-perez.com/case-studies/client-portal",
   },
   openGraph: {
     title: "Client Portal Case Study — Susana Perez",
     description:
       "How I built a global B2B client portal from zero at Randstad — from market research and team building to a live product in 3 countries.",
-    url: "https://www.susana-perez.com/case-studies/client-portal",
+    url: "https://susana-perez.com/case-studies/client-portal",
   },
 }
 

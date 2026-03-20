@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   description:
     "How I scaled Randstad's global talent app from 10 to 26 countries, grew MAU 10x, and raised ratings from 2.5 to 4.6 stars.",
   alternates: {
-    canonical: "https://www.susana-perez.com/case-studies/talent-app",
+    canonical: "https://susana-perez.com/case-studies/talent-app",
   },
   openGraph: {
     title: "Global Mobile App Case Study — Susana Perez",
     description:
       "How I scaled Randstad's global talent app from 10 to 26 countries, grew MAU 10x, and raised ratings from 2.5 to 4.6 stars.",
-    url: "https://www.susana-perez.com/case-studies/talent-app",
+    url: "https://susana-perez.com/case-studies/talent-app",
   },
 }
 
