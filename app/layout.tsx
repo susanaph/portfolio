@@ -13,22 +13,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.susana-perez.com"),
+  metadataBase: new URL("https://susana-perez.com"),
   title: "Susana Perez — Product Manager",
   description:
     "Product Manager specializing in bringing clarity, alignment, and momentum to complex product environments. Based in Amsterdam.",
   alternates: {
-    canonical: "https://www.susana-perez.com",
+    canonical: "https://susana-perez.com",
   },
   openGraph: {
     title: "Susana Perez — Product & Innovation",
     description:
       "PM with 6+ years building B2B & B2C products across web and mobile. Bringing clarity, alignment, and momentum to complex product environments.",
-    url: "https://www.susana-perez.com",
+    url: "https://susana-perez.com",
     siteName: "Susana Perez",
     images: [
       {
-        url: "https://www.susana-perez.com/og-image.png",
+        url: "https://susana-perez.com/og-image.png",
         width: 1200,
         height: 630,
         alt: "Susana Perez — Product & Innovation",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Susana Perez — Product & Innovation",
     description:
       "PM with 6+ years building B2B & B2C products across web and mobile. Bringing clarity, alignment, and momentum to complex product environments.",
-    images: ["https://www.susana-perez.com/og-image.png"],
+    images: ["https://susana-perez.com/og-image.png"],
   },
 };
 
